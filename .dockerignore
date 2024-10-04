@@ -1,0 +1,28 @@
+# Exclude PyCharm project files
+.idea/
+*.iml
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude virtual environment
+venv/
+env/
+
+# Exclude environment configuration files
+*.env
+
+# Exclude Docker and build files
+Dockerfile
+docker-compose.yml
+
+# Exclude local development files
+*.log
+*.sqlite3
+
+# Exclude tests and documentation
+tests/
+docs/
+*.md
